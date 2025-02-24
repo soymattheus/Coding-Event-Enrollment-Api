@@ -11,7 +11,7 @@
 <li>Zod</li>
 </ul>
 
-<h3>Screen Images</h3>
+<h3>Swagger Image</h3>
 <p align="center">
 <img loading="lazy" src="./github/images/swagger.png"/>
 </p>
