@@ -1,37 +1,39 @@
-<h1 align="center">Code Craft</h1>
+<h1 align="center">Code Craft API</h1>
 
 <h3>Main used technologies</h3>
 
 <ul>
-<li>React</li>
-<li>Next</li>
-<li>Tailwind</li>
-<li>Postcss</li>
-<li>Tailwind Merge</li>
-<li>React Hook Form</li>
-<li>Lucide React</li>
+<li>Typescript</li>
+<li>Fastify</li>
+<li>Drizzle</li>
+<li>Redis</li>
+<li>Postgres</li>
+<li>Zod</li>
 </ul>
 
 <h3>Screen Images</h3>
 <p align="center">
 <img loading="lazy" src="./github/images/swagger.png"/>
 </p>
-<p align="center">
-<img loading="lazy" src="./github/images/invitePage.png"/>
-</p>
 
 <h3>To run the project locally follow these steps</h3>
 <ol>
 <li>Clone the project:</li>
-<p>git clone https://github.com/soymattheus/Coding-Event-Enrollment</p>
+<p>git clone https://github.com/soymattheus/Coding-Event-Enrollment-Api</p>
 
 <li>Enter the cloned project folder</li>
 
 <li>Install required packges:</li>
 <p>npm install</p>
 
-<li>Clone the API project and follow the steps to run it:</li>
-<p>git clone https://github.com/soymattheus/Coding-Event-Enrollment-Api</p>
+<li>Run this command to start databases in Docker</li>
+<p>docker compose up -d</p>
+
+<li>Execute this command to create the database DDl</li>
+<p>npx drizzle-kit generate</p>
+
+<li>Execute this command to create the database table</li>
+<p>npx drizzle-kit migrate</p>
 
 <li>Run the project locally:</li>
 <p>npm run dev</p>
