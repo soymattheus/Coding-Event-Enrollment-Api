@@ -2,6 +2,22 @@ POST http://localhost:3333/subscriptions
 Content-Type: application/json
 
 {
-  "name": "Matheus",
-  "email": "matheus@email.com.br"
+  "name": "Matheus Tavares",
+  "email": "matheuss@email.com.br"
 }
+
+####
+
+GET http://localhost:3333/invites/43898b76-e1f6-45f4-8bc2-2ce72689128d
+
+###
+GET http://localhost:3333/subscribers/43898b76-e1f6-45f4-8bc2-2ce72689128d/ranking/clicks
+
+####
+GET http://localhost:3333/subscribers/43898b76-e1f6-45f4-8bc2-2ce72689128d/ranking/count
+
+####
+GET http://localhost:3333/subscribers/43898b76-e1f6-45f4-8bc2-2ce72689128d/ranking/position
+
+####
+GET http://localhost:3333/ranking
