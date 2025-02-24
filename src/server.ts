@@ -26,7 +26,7 @@ app.register(fastifyCors)
 app.register(fastifySwagger, {
   openapi: {
     info: {
-      title: 'NLW Connect',
+      title: 'Code Craft API',
       version: '0.0.1',
     },
   },
