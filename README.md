@@ -1,5 +1,7 @@
 <h1 align="center">Code Craft API</h1>
 
+<p>This backend was built to be used on the <a href="https://github.com/soymattheus/Coding-Event-Enrollment">Code Craft</a> page, which is available on my github.</p>
+
 <h3>Main used technologies</h3>
 
 <ul>
